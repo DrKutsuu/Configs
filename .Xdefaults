@@ -1,0 +1,38 @@
+! This allows selection from the standard X11 clipboard
+XTerm*selectToClipboard: true
+
+! Full colour theme for anything listening to the XResources settings
+
+!Original theme -- Theme Three from (http://web.archive.org/web/20090130061234/http://phraktured.net/terminal-colors/)
+!Set foreground and cursor to a nice bright green
+*foreground: #00ff00
+*cursorColor: #00ff00
+
+*background: rgb:00/00/00
+!*foreground: rgb:cf/cf/cf
+
+! Overriding 4 and 12 to use more muted blues
+*color0:     rgb:00/00/00
+*color1:     rgb:e0/10/10
+*color2:     rgb:20/ad/20
+*color3:     rgb:d4/c2/4f
+! This seems to be directory colour
+!Mine
+*color4:     rgb:1b/76/b7
+!*colour4:    rgb:23/1b/b8
+*color5:     rgb:9c/38/85
+*color6:     rgb:1d/bd/b8
+*color7:     rgb:fe/fe/fe
+*color8:     rgb:6a/6a/6a
+*color9:     rgb:e8/3a/3d
+*color10:    rgb:35/e9/56
+*color11:    rgb:ff/ff/2f
+! This is another dircolor
+*color12:    rgb:1b/76/b7
+!*color12:    rgb:3a/53/f0
+*color13:    rgb:e6/28/ba
+*color14:    rgb:1c/f5/f5
+*color15:    rgb:ff/ff/ff
+
+! Invert the damn colours
+! XTerm*reverseVideo: true
