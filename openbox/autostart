@@ -1,9 +1,0 @@
-#~/.config/openbox/autostart
-
-(sleep 3s && tint2) &
-gnome-terminal -e ~/.rssnews
-skype &
-guake &
-conky &
-volti &
-
