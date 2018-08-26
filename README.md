@@ -1,5 +1,5 @@
 # Configs
-Custom Linux configs/scripts used on most on my machines.
+Custom Linux configs/scripts used on most of my machines.
 ```
                                                   .--. 
                                                  |o_o | 
