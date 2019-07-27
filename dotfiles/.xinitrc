@@ -39,15 +39,13 @@ fi
 dunst &
 
 #Now for things that love DBus
-nm-applet &
+#nm-applet &
 guake &
 
-# xscreensaver, OR i3lock ?
-# i3lock &
-
+xscreensaver &
 # dropbox &
 
 # Celebrate and then laucnh i3
-notify-send "Wilkommen mit N/A" ">^.^<"
+notify-send "$(hostname) - Use Mod-d for dmenu launcher" ""
 # Swap this process to i3 init
 exec i3
