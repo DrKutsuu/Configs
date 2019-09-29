@@ -38,9 +38,12 @@ fi
 }
 
 showHelp() {
-echo -e "Usage:\n -d [device] \n -m (Mount device -u (Unmount device)"
+	echo -e "Usage:\n -d [device] \n -m (Mount device) \n -u (Unmount device)"
 }
 
+
+
+ARGS_PASSED=false
 while getopts ":d:mu" opt
 do
 	case $opt in
@@ -49,7 +52,6 @@ do
 		u ) unmountDrive "$DEVNAME";;
 		* ) showHelp;;
 	esac
+	ARGS_PASSED=true
 done
-
-
-
+if [ $ARGS_PASSED = false ]; then showHelp; fi
